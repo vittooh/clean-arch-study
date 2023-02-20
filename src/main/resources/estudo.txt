@@ -1,0 +1,23 @@
+
+Criar sistema para matricula
+Alunos
+
+
+Value object = classe que não há um atributo que diferencie dois registros iguais.
+Entity = classe que possui uma forma de diferenciar 2 registros por um atributo (cpf, id)
+Screaming Architecture = bater o olho no projeto e saber o que ele faz e como faz
+
+Curso divide a arquitetura em tres camadas :
+
+domain == entities do clean arch
+application == use cases (business rules)
+
+------------------------------------------------------------------------------------------------
+
+O conceito de classes Services e mais especifico Domain, Application e Infrastructure Services
+
+Domain Services são classes que representam uma ação entre mais de uma entidade.
+Application Services controlam o fluxo de alguma regra em nossa aplicação.
+Infrastructure Services são implementações de interfaces presentes nas camadas de domínio ou de aplicação.
+
+------------------------------------------------------------------------------------------------
